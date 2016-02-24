@@ -11,7 +11,12 @@ import UIKit
 
 class ViewTwo : UIViewController {
     
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    var NameLabelText = String()
     
     override func viewDidLoad() {
+        nameLabel.text = NameLabelText
+        
     }
 }

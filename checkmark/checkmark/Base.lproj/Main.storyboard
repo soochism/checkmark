@@ -49,6 +49,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="FriendsLoginButton" destination="qie-5A-I4H" id="cRj-xT-0XW"/>
                         <outlet property="TommyLoginButton" destination="ohh-8Y-qMp" id="9gY-DH-WSw"/>
                     </connections>
                 </viewController>
@@ -78,6 +79,9 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="Zhv-Rx-sbF" id="zbu-HI-QYy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zQp-ZR-IWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
