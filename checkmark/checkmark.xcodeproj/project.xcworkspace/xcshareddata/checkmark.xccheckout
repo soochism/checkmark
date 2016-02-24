@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>3D31D2AD-B7C9-45C6-8050-5625D8E7146E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>checkmark</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>19AADB68BD279C94724C01D46F630C04C4F22C5E</key>
 		<string>github.com:soochism/checkmark.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>checkmark/checkmark.xcodeproj/project.xcworkspace</string>
+	<string>checkmark/checkmark.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>19AADB68BD279C94724C01D46F630C04C4F22C5E</key>

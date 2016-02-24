@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC28A5C41C7D29B400E25881 /* ViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A5C31C7D29B400E25881 /* ViewTwo.swift */; };
 		DC8E83D81C6FED4B00BB4C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E83D71C6FED4B00BB4C48 /* AppDelegate.swift */; };
 		DC8E83DA1C6FED4B00BB4C48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E83D91C6FED4B00BB4C48 /* ViewController.swift */; };
 		DC8E83DD1C6FED4B00BB4C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8E83DB1C6FED4B00BB4C48 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC28A5C31C7D29B400E25881 /* ViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTwo.swift; sourceTree = "<group>"; };
 		DC8E83D21C6FED4B00BB4C48 /* checkmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8E83D61C6FED4B00BB4C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC8E83D71C6FED4B00BB4C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				DC8E83D71C6FED4B00BB4C48 /* AppDelegate.swift */,
 				DC8E83D91C6FED4B00BB4C48 /* ViewController.swift */,
 				DC8E83DB1C6FED4B00BB4C48 /* Main.storyboard */,
+				DC28A5C31C7D29B400E25881 /* ViewTwo.swift */,
 				DC8E83DE1C6FED4B00BB4C48 /* Images.xcassets */,
 				DC8E83E01C6FED4B00BB4C48 /* LaunchScreen.xib */,
 				DC8E83D51C6FED4B00BB4C48 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				DC8E83DA1C6FED4B00BB4C48 /* ViewController.swift in Sources */,
 				DC8E83D81C6FED4B00BB4C48 /* AppDelegate.swift in Sources */,
+				DC28A5C41C7D29B400E25881 /* ViewTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				DC8E83F31C6FED4B00BB4C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC8E83F41C6FED4B00BB4C48 /* Build configuration list for PBXNativeTarget "checkmarkTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				DC8E83F61C6FED4B00BB4C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
