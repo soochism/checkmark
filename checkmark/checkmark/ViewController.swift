@@ -8,8 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+// I added this *****
+import MobileCoreServices
+// ******************
 
+
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +24,23 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    // I added this *************************************
+    @IBOutlet weak var Camera: UIButton!
+    
+    
+    @IBAction func CameraAction(sender: UIButton) {
+        
+        let picker = UIImagePickerController()
+        
+        picker.delegate = self
+        picker.sourceType = .Camera
+        
+        presentViewController(picker, animated: true, completion: nil)
+    }
+    // **************************************************
+    
+    
 }
 
