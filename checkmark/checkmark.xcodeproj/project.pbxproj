@@ -156,6 +156,7 @@
 		DC8E83CA1C6FED4B00BB4C48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = checkmark;
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				DC8E83F31C6FED4B00BB4C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC8E83F41C6FED4B00BB4C48 /* Build configuration list for PBXNativeTarget "checkmarkTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				DC8E83F61C6FED4B00BB4C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
