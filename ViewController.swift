@@ -7,12 +7,12 @@
 //
 
 import UIKit
+import SpriteKit //Fade animation
 
 class ViewController: UIViewController {
     
     var checkImage: UIImage!
     var checkImageView: UIImageView!
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,15 +23,18 @@ class ViewController: UIViewController {
                 
         checkImage = UIImage(named: "logo_justCheckmark_v3.png")
         checkImageView = UIImageView(image: checkImage)
+        
     }
     
     func makeCheckmark(tapGesture: UITapGestureRecognizer) {
-        
+        /*
         checkImageView.center = tapGesture.locationOfTouch(0, inView: view)
         checkImageView.sizeToFit()
         view.addSubview(checkImageView)
         checkImageView.startAnimating()
-        
+        */
+        var checkAnimate = SKAction.sequence([SKAction.fadeInWithDuration(1.0), SKAction.FadeOutWithDuration(1.0)])
+        checkImageView.runAction(checkAnimate)
     }
 
     override func didReceiveMemoryWarning() {
