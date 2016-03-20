@@ -20,6 +20,7 @@
 		CE50ED7A1C7301F700766CC7 /* tabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50ED791C7301F700766CC7 /* tabTests.swift */; };
 		CE50ED851C7301F700766CC7 /* tabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50ED841C7301F700766CC7 /* tabUITests.swift */; };
 		CEDBB2621C7D48D0000C00D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBB2611C7D48D0000C00D8 /* LoginViewController.swift */; };
+		DC660D931C9DAA0B002AC0C5 /* CheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC660D921C9DAA0B002AC0C5 /* CheckmarkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		CE50ED841C7301F700766CC7 /* tabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabUITests.swift; sourceTree = "<group>"; };
 		CE50ED861C7301F700766CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDBB2611C7D48D0000C00D8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC660D921C9DAA0B002AC0C5 /* CheckmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckmarkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				CE50ED6D1C7301F700766CC7 /* LaunchScreen.storyboard */,
 				CE50ED701C7301F700766CC7 /* Info.plist */,
 				CE15030A1C8E5B4B0019849E /* Checkmarkdemo.swift */,
+				DC660D921C9DAA0B002AC0C5 /* CheckmarkView.swift */,
 			);
 			path = tab;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE01EE771C8E18EF0008F300 /* FriendsDetails.swift in Sources */,
+				DC660D931C9DAA0B002AC0C5 /* CheckmarkView.swift in Sources */,
 				CEDBB2621C7D48D0000C00D8 /* LoginViewController.swift in Sources */,
 				CE50ED671C7301F700766CC7 /* SecondViewController.swift in Sources */,
 				CE50ED631C7301F700766CC7 /* AppDelegate.swift in Sources */,

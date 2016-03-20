@@ -15,6 +15,9 @@ class Checkmarkdemo: UIViewController {
     var checkImage: UIImage!
     var checkImageView: UIImageView!
     
+    let checkSize: CGFloat = 36
+    var burstTimer: NSTimer?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,12 +33,10 @@ class Checkmarkdemo: UIViewController {
     }
     
     func makeCheckmark(tapGesture: UITapGestureRecognizer) {
-        
-        checkImageView.center = tapGesture.locationOfTouch(0, inView: view)
-        checkImageView.sizeToFit()
-        view.addSubview(checkImageView)
-        checkImageView.startAnimating()
-        
+        let checkmark = CheckmarkView(frame: CGRectMake(0, 0, checkSize, checkSize))
+        view.addSubview(checkmark)
+        checkmark.center = tapGesture.locationInView(view)
+        checkmark.animateInView(self.view)
     }
 
     override func didReceiveMemoryWarning() {
